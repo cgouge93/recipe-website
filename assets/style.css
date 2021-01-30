@@ -7,7 +7,9 @@ body{
     background:rgb(112, 112, 112);
     background-image: url(ingredients1.jpg);
     background-blend-mode: screen;
-    
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
     
 }
 
@@ -22,7 +24,10 @@ body{
     
 }
 
-
+main {
+    flex: 1 0 auto;
+  }
+      
 
 .btn {
     margin-top:2%;
@@ -40,3 +45,6 @@ body{
     }
     
 }
+
+
+
