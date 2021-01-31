@@ -50,7 +50,7 @@ $(document).ready(function(){
       var recBody = $("<div></div>").addClass("collapsible-body center-align")
       var recLink = $("<a></a>").attr("target","_blank").attr("href", hits[i].recipe.url).text("Click for full recipe")
       var inglines =$("<ul></ul>").text("Ingredients: ");
-      var ing_li =res.hits[0].recipe.ingredientLines
+      var ing_li =res.hits[i].recipe.ingredientLines
       
       for(j=0; j<ing_li.length;j++){
         var ing = $("<li></li>").text(ing_li[j])
